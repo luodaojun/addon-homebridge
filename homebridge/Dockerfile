@@ -35,6 +35,7 @@ RUN \
         node-gyp \
         homebridge@0.4.29 \
         homebridge-homeassistant@3.0.1 \
+        homebridge-broadlink-rm \
     \
     && apk del --purge .build-dependencies
 
